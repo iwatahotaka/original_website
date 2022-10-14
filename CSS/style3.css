@@ -1,0 +1,97 @@
+@font-face {
+    font-family: 'cat_font';
+    src: url('../font/original_websitefont/MRT-まるこいあすα.ttf') format('');
+    }
+
+body {
+    background-color: antiquewhite;
+}
+
+.item_text1{
+    animation: key1 .3s ease alternate;
+    font-size: 60px;
+    font-family: cat_font;
+}
+
+.item_text2{
+    animation: key1 .4s ease alternate;
+    font-size: 60px;
+    font-family: cat_font;
+}
+
+.item_text3{
+    animation: key1 .5s ease alternate;
+    font-size: 60px;
+    font-family: cat_font;
+}
+
+.item_text4{
+    animation: key1 .6s ease alternate;
+    font-size: 60px;
+    font-family: cat_font;
+}
+
+.item_text5{
+    animation: key1 .7s ease alternate;
+    font-size: 60px;
+    font-family: cat_font;
+}
+
+.item_text6{
+    animation: key1 .8s ease alternate;
+    font-size: 60px;
+    font-family: cat_font;
+}
+
+@keyframes key1{
+  0% {transform: translateY(0px);}
+  10% {transform: translateY(-10px);}
+  0% {transform: translateY(-20px);}
+  0% {transform: translateY(-30px);}
+  0% {transform: translateY(-40px);}
+  50% {transform: translateY(-30px);}
+  0% {transform: translateY(-20px);}
+  70% {transform: translateY(-10px);}
+  0% {transform: translateY(0px);}
+  0% {transform: translateY(10px);}
+  100% {transform: translateY(15px);}
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  margin-top: 300px;
+}
+
+img {
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    left: 900px;
+    top: 300px;
+    animation: fadeIn 4s ease 0s 1 normal;
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0}
+    100% {opacity: 1}
+}
+
+header {
+    display: flex;
+    justify-content: right;
+}
+
+a {
+    margin-top: 10px;
+    margin-right: 20px;
+    padding: 5px;
+}
+
+@media screen and (max-width:479px) {
+    img {
+        position: static;
+        margin-left: 135px;
+        margin-top: 30px;
+    }
+}

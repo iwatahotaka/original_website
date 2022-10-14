@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/reset.css">
+    <link rel="stylesheet" href="../CSS/style2.css">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+</head>
+<body>
+    <div id="title">
+        <header>おみその部屋</header>
+    </div>
+    <a class="siteTop" href="../HTML/index.html">サイトTOP</a>
+    <a class="test" href="../HTML/sitetop.html">僕のいちにち</a>
+    <section id="explain">
+        <h1 class="explain">？あなたの猫度はなん％？</h1>
+        <p class="explain">以下の5つの質問にYESかNOで答えてね！</p>
+        <p class="explain">~直感で答えてね~</p>
+    </section>
+    <form name="catTest">
+        <table>
+                <tr id="question1">
+                    <label for="q1"><td>1.親しい間柄でも干渉や束縛されるのは嫌だ</td></label>
+                </tr>
+                <tr>
+                    <td>
+                        <label><input type="radio" name="q1" id="q1" value="YES" class="YES">YES</label>
+                        <label><input type="radio" name="q1" id="q1" value="NO">NO</label>
+                    </td>
+                </tr>
+                <tr>
+                    <label for="q2"><td>2.一人でいる時間も結構好き</td></label>
+                </tr>
+                <tr>
+                    <td>
+                        <label><input type="radio" name="q2" id="q2" value="YES" class="YES">YES</label>
+                        <label><input type="radio" name="q2" id="q2" value="NO">NO</label>
+                    </td>
+                </tr>
+                <tr>
+                    <label for="q3"><td>3.自分は気分屋だと思う</td></label>
+                </tr>
+                <tr>
+                    <td>
+                        <label><input type="radio" name="q3" id="q3" value="YES" class="YES">YES</label>
+                        <label><input type="radio" name="q3" id="q3" value="NO">NO</label>
+                    </td>
+                </tr>
+                <tr>
+                    <label for="q4"><td>4.人に心を開くまで時間がかかる方だ</td></label>
+                </tr>
+                <tr>
+                    <td>
+                        <label><input type="radio" name="q4" id="q4" value="YES" class="YES">YES</label>
+                        <label><input type="radio" name="q4" id="q4" value="NO">NO</label>
+                    </td>
+                </tr>
+                <tr>
+                    <label for="q5"><td>5.自分が暇な時だけ構ってほしい</td></label>
+                </tr>
+                <tr>
+                    <td>
+                        <label><input type="radio" name="q5" id="q5" value="YES" class="YES">YES</label>
+                        <label><input type="radio" name="q5" id="q5" value="NO">NO</label>
+                    </td>
+                </tr>
+        </table>
+        <div id="submit">
+            <p><input type="button" id="btn" value="結果を見る" onclick="getValue();"></p>
+        </div>
+    </form>
+    <img id="leftSide" src="../img/work_cat2.png" alt="猫">
+    <img id="rightSide" src="../img/work_cat.png" alt="猫">
+    
+
+    <div id="result_area">
+        <div id="result"></div>
+        <div id="comment"></div>
+    </div>
+    <script src="../script.js/script.js"></script>
+</body>
+</html>

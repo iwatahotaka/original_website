@@ -1,0 +1,131 @@
+@font-face {
+    font-family: 'cat_font';
+    src: url('../font/original_websitefont/MRT-まるこいあすα.ttf') format('');
+    }
+
+#title {
+    background-color: blanchedalmond;
+    padding: 27px;
+}
+
+header {
+  position: absolute;
+  top: 4%;
+  left: 8%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  padding: 0;
+  font-size: 2em;
+  font-family: cat_font;
+}
+
+a.siteTop {
+  position: absolute;
+  top: 4%;
+  left: 93%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  padding: 0;
+  background-color: bisque;
+}
+
+a.test {
+  position: absolute;
+  top: 4%;
+  left: 85%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  padding: 0;
+  background-color: bisque;
+}
+
+body {
+  background-color: antiquewhite;
+}
+
+#explain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: antiquewhite;
+}
+
+.explain {
+  padding: 7px;
+}
+
+h1 {
+  margin-top: 10px;
+}
+
+table {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: antiquewhite;
+}
+
+tr {
+  display: block;
+  padding: 10px;
+}
+
+#question1 {
+  margin-top: 40px;
+}
+
+#submit {
+  display: flex;
+  justify-content: center;
+}
+
+#result_area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+}
+
+img {
+  width: 120px;
+  height: 120px;
+  border-radius: 30%;
+}
+
+#leftSide {
+  position: absolute;
+  bottom: 250px;
+  left: 350px;
+}
+
+#rightSide {
+  position: absolute;
+  left: 850px;
+  bottom: 400px;
+}
+
+@media screen and (max-width:479px) {
+  img {
+    display: none;
+  }
+  header {
+    left: 110px;
+  }
+  a.siteTop {
+    left: 70%;
+    top: 3%;
+  }
+  a.test {
+    left: 70%;
+    top: 5.5%;
+  }
+  section {
+    position: absolute;
+    left: 11%;
+  }
+  form {
+    position: absolute;
+    top: 19%;
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,328 @@
+@font-face {
+    font-family: 'cat_font';
+    src: url('../font/original_websitefont/MRT-まるこいあすα.ttf') format('');
+    }
+
+/*video {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    position: absolute;
+}
+
+button.toppage {
+    font-size: 70px;
+    padding: 7px 20px;
+    margin-top: 200px;
+    margin-left: 100px;
+    animation-name: fadeInAnime;
+    animation-delay: 3s;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+@keyframes fadeInAnime {
+    from{
+        opacity: 0;
+    }to{
+        opacity: 1;
+    }
+}*/
+
+img.lay_omiso {
+    position: relative;
+    object-fit: cover;
+    width: 100vw;
+}
+
+img.lookme_omiso {
+    display: none;
+    object-fit: cover;
+    width: 100%;
+}
+
+@media screen and (max-width:479px) {
+    img.lay_omiso {
+        display: none;
+    }
+    img.lookme_omiso {
+        display: block;
+    }
+    a.siteTop {
+        display: none;
+    }
+    a.test {
+        display: none;
+    }
+}
+
+header p {
+  position: absolute;
+  top: 4%;
+  left: 8%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  padding: 0;
+  font-size: 2em;
+  font-family: cat_font;
+}
+
+a.siteTop {
+  position: absolute;
+  top: 4%;
+  left: 93%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  padding: 0;
+  background-color: bisque;
+}
+
+a.test {
+    position: absolute;
+    top: 4%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    padding: 0;
+    background-color: bisque;
+  }
+
+@media screen and (max-width:479px) {
+    header p {
+      position: absolute;
+      top: 4%;
+      left: 15%;
+      transform: translate(-50%, -50%);
+      margin: 0;
+      padding: 0;
+      font-size: 1em;
+      font-family: cat_font;
+    }
+}
+
+header h1 {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  padding: 30px 40px;
+  font-size: 2em;
+  border: 2px solid orange;
+  font-family: cat_font;
+}
+
+@media screen and (max-width:479px) {
+    header h1 {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      margin: 0;
+      padding: 10px 0px;
+      font-size: 1.5em;
+      border: 2px solid orange;
+      font-family: cat_font;
+    }
+}
+
+.paw {
+    object-fit: cover;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width:479px) {
+    img.paw {
+        display: none;
+    }
+}
+
+#paw1 {
+    margin-top: 17px;
+    padding-left: 300px;
+    padding-right: 300px;
+    transform: rotate(50deg);
+}
+
+#paw2 {
+    padding-left: 400px;
+    padding-right: 350px;
+    transform: rotate(50deg);
+}
+
+#paw3 {
+    padding-left: 400px;
+    padding-right: 530px;
+    transform: rotate(50deg);
+}
+
+#section {
+    background-color: antiquewhite;
+}
+
+img.sharkCat {
+    width: 120px;
+    height: 120px;
+}
+
+#section2 {
+    text-align: center;
+    margin-bottom: 30px;
+    padding-top: 30px;
+}
+
+div.morningAction {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.morningActionContent {
+    text-align: left;
+}
+
+img.sharkCat2 {
+    object-fit: cover;
+    width: 120px;
+    height: 120px;
+}
+
+#section3 {
+    text-align: center;
+    margin: 30px;
+}
+
+.lateMorningAction {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.lateMorningActionContent {
+    text-align: left;
+}
+
+img.sharkCat3 {
+    object-fit: cover;
+    width: 120px;
+    height: 120px;
+}
+
+#section4 {
+    text-align: center;
+    margin: 30px;
+}
+
+.afterNoonAction {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.afterNoonActionContent {
+    text-align: left;
+}
+
+img.sharkCat4 {
+    object-fit: cover;
+    width: 120px;
+    height: 120px;
+}
+
+#section5 {
+    text-align: center;
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+
+.eveningAction {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.eveningActionContent {
+    text-align: left;
+    margin-left: 15px;
+}
+
+.insta {
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+}
+
+.mobile_insta {
+    display: none;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+.picture {
+    position: relative;
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 10%;
+    padding: 10px;
+}
+
+.picture:hover {
+    top: -15px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
+}
+
+@media screen and (max-width:479px) {
+    #mobile_icon {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .mobile_insta {
+        display: block;
+        object-fit: cover;
+        width: 100px;
+        height: 100px;
+    }
+    
+    footer {
+        padding: 10px;
+        padding-bottom: 30px;
+        margin: 0;
+    }
+    #insta_icon {
+        display: inline-block;
+        height: 100px;
+    }
+    .insta {
+        display: none;
+        width: 100px;
+        height: 100px;
+    }
+
+    #pictures {
+        height: 250px;
+    }
+
+    #none_picture {
+        display: none;
+    }
+    .picture {
+        width: 100px;
+        height: 100px;
+        border-radius: 20%;
+    }
+}
